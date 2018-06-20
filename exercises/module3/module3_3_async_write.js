@@ -3,15 +3,9 @@
 
 var fs = require("fs");
 
-fs.writeFile('input.txt', 'Hello World',  function(err) {
-    if (err) {
-		throw err;
-	}
+fs.writeFile('input.txt', 'Hello World2',  function(err) {
+});
 
 fs.readFile('input.txt', function (err, data) {
-      if (err) {
-         return console.error(err);
-      }
-      console.log(data.toString());
-   });
+  console.log(data.toString());
 });

@@ -1,11 +1,18 @@
 // Module 2 Built in Modules
 // Path Module
 
-var path = require('path');
+const path = require('path');
 
-console.log( path.basename(__filename));
+//basename and dirname
+// console.log(path.basename('/test/demo1.txt'));
+// console.log(path.dirname('/test/demo1.txt'));
 
-var testdir = path.join(__dirname, 'test');
+//__filename and __dirname
+// console.log(path.basename(__filename));
+// console.log( path.basename(__dirname));
+
+// Join
+let testdir = path.join(__dirname, 'test');
 console.log(testdir);
 
 
