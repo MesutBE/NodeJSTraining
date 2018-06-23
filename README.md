@@ -7,6 +7,9 @@ The course outline can be found in
 
 https://www.tertiarycourses.com.sg/basic-nodejs-training-in-singapore.html
 
+https://www.tertiarycourses.com.my/basic-nodejs-training-in-malaysia.html
+
+
 <p><strong>Module 1 - Get Started on Node.js</strong></p>
 <ul>
 <li>What Is Node.js?</li>
