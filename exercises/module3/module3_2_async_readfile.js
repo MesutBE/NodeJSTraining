@@ -3,7 +3,7 @@
 
 var fs = require("fs");
 
-fs.readFile('input.txt', "UTF-8", function (err, data) {
+fs.readFile('input.txt', "UTF-8", (err, data) => {
     console.log(data.toString());
  });
  

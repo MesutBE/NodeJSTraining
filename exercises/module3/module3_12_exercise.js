@@ -15,18 +15,15 @@ var req = https.request(options, function(res) {
     res.on("data", function(chunk) {
         responseBody += chunk;
     });
-	res.on("end", function() {
+	res.on("end", () => {
 		fs.writeFile("george-washington.html", responseBody, function(err) {
-			if (err) {
-				throw err;
-			}
 			console.log("File Downloaded");
 		});
 	});
 
 });
 
-req.on("error", function(err) {
+req.on("error", (err) => {
 	console.log(`problem with request: ${err.message}`);
 });
 

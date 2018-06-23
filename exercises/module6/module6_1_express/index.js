@@ -2,11 +2,11 @@ var express = require("express");
 var app = express();
 
 // GET method route
-// app.get('/', function (req, res) {
+// app.get('/', (req, res) => {
 //     res.send('Hello World')
 //   })
   
-// app.get('/about', function (req, res) {
+// app.get('/about', (req, res) => {
 //     res.send('About Us')
 //   })
 

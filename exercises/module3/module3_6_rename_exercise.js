@@ -4,6 +4,6 @@ fs.rename("./img.jpg", "./birds.jpg", function(err) {
 		console.log("File renamed");
 });
 
-fs.unlink("bird.jpg", function(err) {
+fs.unlink("bird.jpg", (err) => {
         console.log("file removed");
 });

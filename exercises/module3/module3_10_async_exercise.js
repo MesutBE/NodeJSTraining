@@ -1,7 +1,7 @@
 var fs = require("fs");
 var path = require("path");
 
-fs.readdir("./lib", function(err, files) {
+fs.readdir("./lib", (err, files) => {
 
 	files.forEach(function(fileName) {
 		var file = path.join(__dirname, "lib", fileName);

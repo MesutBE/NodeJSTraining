@@ -1,9 +1,6 @@
 var fs = require("fs");
 
-// fs.readdir('./', function(err, files) {
-// 	if (err) {
-// 		throw err;
-// 	}
+// fs.readdir('./', (err, files) => {
 // 	console.log(files);
 // });
 // console.log("Reading Files...");
